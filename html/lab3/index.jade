@@ -1,0 +1,20 @@
+doctype html
+html
+	head
+		title Javascript Lab
+		script(type="text/javascript" src="jsMaker.js")
+		link(href="stylesheet.css" rel="stylesheet" type="tesxt/css")
+
+	body
+		script.
+			document.addEventListener("DOMContentLoaded", function(event) { 
+				writeMessage("text");
+			});
+		.container
+			img.sun(src="sun.png" alt="sun" title="sun")
+			p.text(id="text").
+				Welcome to my webpage.  To use it, please enable Javascript.
+		.container.noborder
+			p.edited.
+				Last Edited Thursday October 1'st by Tyler Kuipers
+

@@ -1,0 +1,19 @@
+.container{
+	margin: 0 auto;
+	height: 15%;
+	width: 33%;
+	border: 3px solid black;
+}
+
+.sun{
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+.edited{
+	float: right;
+	font-size: 75%;
+}
+.noborder{
+	border: 0px;
+}

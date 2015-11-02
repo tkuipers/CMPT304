@@ -1,0 +1,230 @@
+/*Tyler Kuipers Lab 3*/
+
+div{
+	height: 10px;
+	width: 10px;
+	background-color: #F0F0F0;
+}
+/*paragraph containing the last modified*/
+.modified{
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+/*The entire piece div*/
+.pieces{
+	height: 35px;
+	width: 180px;
+	border-bottom: solid 1px black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+/*The square piece*/
+.square{
+	height: 20px;
+	width: 20px;
+	position: relative;
+	float: right;
+	bottom: 0px;
+	margin: 15px 5px;
+}
+
+/*tBlock1
+ *
+***
+individual div things are contained below
+*/
+.tBlockOne{
+	height: 20px;
+	width: 30px;
+	position: relative;
+	float: right;
+	bottom: 0px;
+	margin: 15px 5px;
+}
+
+/*tBlock2
+
+*
+**
+*
+
+*/
+.tBlockTwo{
+	height: 30px;
+	width: 20px;
+	position: relative;
+	float: right;
+	bottom: 0px;
+	margin: 5px;
+}
+
+/*tBlock3
+***
+ *
+
+*/
+.tBlockThree{
+	height: 20px;
+	width: 30px;
+	position: relative;
+	/*float: right bottom;*/
+	float: right;
+	bottom: 0px;
+	margin: 15px 10px;
+}
+
+/*tBlock4
+
+ *
+**
+ *
+ 
+*/
+.tBlockFour{
+	height: 30px;
+	width: 20px;
+	position: relative;
+	/*float: right bottom;*/
+	float: right;
+	bottom: 0px;
+	margin: 5px;
+}
+
+
+
+
+
+
+
+.square .one {
+	background-color: blue;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+}
+.square .two {
+	background-color: blue;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+.square .three {
+	background-color: blue;
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+}
+.square .four {
+	background-color: blue;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+.tBlockOne .one {
+	background-color: green;
+	top: 10px;
+	right: 0px;
+	position: absolute;
+}
+.tBlockOne .two {
+	background-color: green;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+.tBlockOne .three {
+	background-color: green;
+	top: 10px;
+	right: 20px;
+	position: absolute;
+}
+.tBlockOne .four {
+	background-color: green;
+	top: 0px;
+	left: 10px;
+	position: absolute;
+}
+
+.tBlockTwo .one {
+	background-color: green;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+.tBlockTwo .two {
+	background-color: green;
+	top: 10px;
+	left: 0px;
+	position: absolute;
+}
+.tBlockTwo .three {
+	background-color: green;
+	top: 20px;
+	left: 0px;
+	position: absolute;
+}
+.tBlockTwo .four {
+	background-color: green;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+
+.tBlockThree .one {
+	background-color: green;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+.tBlockThree .two {
+	background-color: green;
+	top: 0px;
+	left: 10px;
+	position: absolute;
+}
+.tBlockThree .three {
+	background-color: green;
+	top: 0px;
+	left: 20px;
+	position: absolute;
+}
+.tBlockThree .four {
+	background-color: green;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+
+.tBlockFour .one {
+	background-color: green;
+	top: 0px;
+	left: 10px;
+	position: absolute;
+}
+.tBlockFour .two {
+	background-color: green;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+.tBlockFour .three {
+	background-color: green;
+	top: 20px;
+	left: 10px;
+	position: absolute;
+}
+.tBlockFour .four {
+	background-color: green;
+	top: 10px;
+	left: 0px;
+	position: absolute;
+}
+	
