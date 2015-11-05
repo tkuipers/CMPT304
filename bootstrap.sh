@@ -28,3 +28,4 @@ aptitude install -y nodejs-legacy
 aptitude install -y npm
 aptitude install -y php5-cli
 aptitude install -y php5-fpm
+wget https://raw.githubusercontent.com/tkuipers/dotfiles/master/.bashrc -    O /home/vagrant/.bashrc
